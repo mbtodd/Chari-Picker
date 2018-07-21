@@ -52,7 +52,7 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Chari</h1>
+                  <h1 id="redTitle" className={classes.title}>Chari</h1>
                   <h1 className={classes.title}>-Picker</h1>
                   <h3 className={classes.subtitle}>
                     Charitiable Organization Finder

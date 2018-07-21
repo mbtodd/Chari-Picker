@@ -113,6 +113,10 @@ img {
 form {
   margin-bottom: 1.125rem; }
 
+  #redTitle {
+    color: red
+  }
+
 /*! nouislider - 10.0.0 - 2016-12-10 16:00:32 */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
