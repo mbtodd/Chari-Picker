@@ -51,9 +51,10 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>Chari</h1>
+                  <h1 className={classes.title}>-Picker</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    Charitiable Organization Finder
                   </h3>
                 </div>
               </GridItem>
