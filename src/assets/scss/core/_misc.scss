@@ -58,13 +58,12 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
 }
-body{
-    background-color: #E5E5E5;
-    color: $black-color;
-    margin: 0;
-    font-size: 1rem;
-    text-align: left;
-}
+body {
+  background-color: rgb(14, 17, 24);
+  color: #3C4858;
+  margin: 0;
+  font-size: 1rem;
+  text-align: left; }
 
 legend {
   border-bottom: 0;
@@ -109,3 +108,16 @@ img {
 form {
   margin-bottom: 1.125rem;
 }
+
+#redTitle {
+    color: red;
+  }
+
+  #redTitle_bold {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #whiteTitle_bold {
+    font-weight: bold;
+  }

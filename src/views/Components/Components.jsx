@@ -69,14 +69,14 @@ class Components extends React.Component {
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionBasics />
-          <SectionNavbars />
+          {/* <SectionNavbars />
           <SectionTabs />
           <SectionPills />
           <SectionNotifications />
           <SectionTypography />
           <SectionJavascript />
           <SectionCarousel />
-          <SectionCompletedExamples />
+          <SectionCompletedExamples /> */}
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
             <Link to={"/login-page"} className={classes.link}>
