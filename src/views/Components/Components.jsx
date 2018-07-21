@@ -36,7 +36,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Charity Finder"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -80,8 +80,8 @@ class Components extends React.Component {
               </Button>
             </Link>
           </GridItem>
-          <SectionExamples />
-          <SectionDownload />
+          {/* <SectionExamples /> */}
+          {/* <SectionDownload /> */}
         </div>
         <Footer />
       </div>

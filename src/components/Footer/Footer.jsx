@@ -32,7 +32,7 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Chari-Picker
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -68,11 +68,11 @@ function Footer({ ...props }) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com"
+            href="https://www.muze3d.graphics"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Michael Todd
           </a>{" "}
           for a better web.
         </div>
