@@ -35,6 +35,7 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        
         <Header
           brand="Charity Finder"
           rightLinks={<HeaderLinks />}
@@ -46,7 +47,7 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/images/charitable_giving.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
