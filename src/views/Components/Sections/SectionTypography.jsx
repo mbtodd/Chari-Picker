@@ -36,7 +36,7 @@ class SectionTypography extends React.Component {
               </div>
               <div className={classes.typo}>
                 <div className={classes.note}>Header 2</div>
-                <h2>The Life of Material Kit</h2>
+                <h2>The <span id="redTitle">Life</span> of Material Kit Lorem  delectus a pariatur autem!</h2>
               </div>
               <div className={classes.typo}>
                 <div className={classes.note}>Header 3</div>

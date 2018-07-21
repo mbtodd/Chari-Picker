@@ -35,8 +35,10 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        {/* <img src="../src/assets/img/images/charityLogo.png" alt="..."/>; */}
         
         <Header
+          // img="assets/img/images/charityLogo.png"
           brand="Charity Finder"
           rightLinks={<HeaderLinks />}
           fixed
@@ -55,7 +57,9 @@ class Components extends React.Component {
                   <h1 id="redTitle" className={classes.title}>Chari</h1>
                   <h1 className={classes.title}>-Picker</h1>
                   <h3 className={classes.subtitle}>
-                    Charitiable Organization Finder
+                    We are dedicated to make giving to charities as easy as possible. With 
+                    <span id="redTitle_bold"> Chari</span><span id="whiteTitle_bold">-Picker</span>
+                    , you will have a convient way to find a charitable cause and be able to donate to it directly from your phone. 
                   </h3>
                 </div>
               </GridItem>

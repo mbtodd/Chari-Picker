@@ -71,7 +71,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  background-color: rgb(1, 2, 10);
+  background-color: rgb(6, 7, 10);
   color: #3C4858;
   margin: 0;
   font-size: 1rem;
@@ -115,6 +115,15 @@ form {
 
   #redTitle {
     color: red
+  }
+
+  #redTitle_bold {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #whiteTitle_bold {
+    font-weight: bold;
   }
 
 /*! nouislider - 10.0.0 - 2016-12-10 16:00:32 */
