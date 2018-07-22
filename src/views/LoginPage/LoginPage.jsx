@@ -64,7 +64,7 @@ class LoginPage extends React.Component {
               <GridItem xs={12} sm={12} md={4}>
                 <Card className={classes[this.state.cardAnimaton]}>
                   <form className={classes.form}>
-                    <CardHeader color="primary" className={classes.cardHeader}>
+                    <CardHeader color="danger" className={classes.cardHeader}>
                       <h4>Login</h4>
                       <div className={classes.socialLine}>
                         <Button
@@ -147,7 +147,7 @@ class LoginPage extends React.Component {
                       />
                     </CardBody>
                     <CardFooter className={classes.cardFooter}>
-                      <Button simple color="primary" size="lg">
+                      <Button simple color="danger" size="lg">
                         Get started
                       </Button>
                     </CardFooter>

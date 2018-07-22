@@ -28,7 +28,7 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="../../views/LandingPage/LandingPage.jsx"
                 className={classes.block}
                 target="_blank"
               >
@@ -37,7 +37,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation"
+                // href="https://www.creative-tim.com/presentation"
                 className={classes.block}
                 target="_blank"
               >
@@ -46,7 +46,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/"
+                // href="http://blog.creative-tim.com/"
                 className={classes.block}
                 target="_blank"
               >
@@ -55,7 +55,7 @@ function Footer({ ...props }) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/license"
+                // href="https://www.creative-tim.com/license"
                 className={classes.block}
                 target="_blank"
               >
@@ -65,8 +65,8 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , made with ❤️ 
+          by{" "}
           <a
             href="https://www.muze3d.graphics"
             className={aClasses}
