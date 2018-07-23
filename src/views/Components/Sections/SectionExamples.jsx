@@ -34,12 +34,12 @@ class SectionExamples extends React.Component {
                     classes.imgFluid
                   }
                 />
-                <Button color="primary" size="lg" simple>
+                <Button color="danger" size="lg" simple>
                   View landing page
                 </Button>
               </Link>
             </GridItem>
-            <GridItem xs={12} sm={12} md={6}>
+            {/* <GridItem xs={12} sm={12} md={6}>
               <Link to="profile-page" className={classes.link}>
                 <img
                   src={profile}
@@ -52,11 +52,11 @@ class SectionExamples extends React.Component {
                     classes.imgFluid
                   }
                 />
-                <Button color="primary" size="lg" simple>
+                <Button color="danger" size="lg" simple>
                   View profile page
                 </Button>
               </Link>
-            </GridItem>
+            </GridItem> */}
           </GridContainer>
         </div>
       </div>
