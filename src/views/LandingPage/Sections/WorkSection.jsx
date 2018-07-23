@@ -28,7 +28,7 @@ class WorkSection extends React.Component {
             </h4>
             <form>
               <GridContainer>
-                <GridItem xs={12} sm={12} md={6}>
+                {/* <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
                     labelText="Your Name"
                     id="name"
@@ -44,10 +44,23 @@ class WorkSection extends React.Component {
                     formControlProps={{
                       fullWidth: true
                     }}
-                  />
-                </GridItem>
+                    />
+                  </GridItem> */}
+                  <Button color="primary">SUBMIT</Button>
                 <CustomInput
-                  labelText="Your Message"
+                  labelText="CHARITY SEARCH"
+                  id="message"
+                  formControlProps={{
+                    fullWidth: true,
+                    className: classes.textArea
+                  }}
+                  inputProps={{
+                    multiline: true,
+                    rows: 5
+                  }}
+                />
+                <CustomInput
+                  labelText="RESULTS"
                   id="message"
                   formControlProps={{
                     fullWidth: true,
@@ -65,7 +78,6 @@ class WorkSection extends React.Component {
                     md={4}
                     className={classes.textCenter}
                   >
-                    <Button color="primary">Send Message</Button>
                   </GridItem>
                 </GridContainer>
               </GridContainer>

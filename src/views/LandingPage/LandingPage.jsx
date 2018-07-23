@@ -53,7 +53,11 @@ class LandingPage extends React.Component {
                   first impression.
                 </h4>
                 <br />
-                <Button
+
+                
+              {/* youtube button */}
+
+                {/* <Button
                   color="danger"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -61,7 +65,7 @@ class LandingPage extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-play" />Watch video
-                </Button>
+                </Button> */}
               </GridItem>
             </GridContainer>
           </div>
@@ -69,7 +73,7 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
-            <TeamSection />
+            {/* <TeamSection /> */}
             <WorkSection />
           </div>
         </div>

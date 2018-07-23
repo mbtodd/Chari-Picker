@@ -5,13 +5,14 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Fingerprint from "@material-ui/icons/CreditCard";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import InfoArea from "components/InfoArea/InfoArea.jsx";
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
+import CreditCard from "../../../../node_modules/@material-ui/icons/CreditCard";
 
 class ProductSection extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>It's Never To Early To Start Giving Back</h2>
             <h5 className={classes.description}>
               This is the paragraph where you can write more details about your
               product. Keep you user engaged by providing meaningful
@@ -52,9 +53,9 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
+                title="Credit Card"
+                description="Secure Credit Card Form for easy, carefree, finacial donations"
+                icon={CreditCard}
                 iconColor="danger"
                 vertical
               />

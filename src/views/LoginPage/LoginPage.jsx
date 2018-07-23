@@ -20,6 +20,7 @@ import CardFooter from "components/Card/CardFooter.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
 
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
+// import LoginDB from "../../models/LoginDB.js";
 
 import image from "../../assets/img/images/handsup.jpg";
 
