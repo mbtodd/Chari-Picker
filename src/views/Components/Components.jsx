@@ -39,7 +39,7 @@ class Components extends React.Component {
         
         <Header
           // img="assets/img/images/charityLogo.png"
-          brand="Charity Finder"
+          brand="Chari-Picker"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -81,7 +81,7 @@ class Components extends React.Component {
           <GridItem md={12} className={classes.textCenter}>
             <Link to={"/login-page"} className={classes.link}>
               <Button color="danger" size="lg" simple>
-                View Login Page
+                PLEASE REGISTER HERE
               </Button>
             </Link>
           </GridItem>

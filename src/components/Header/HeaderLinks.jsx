@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // @material-ui/core components
+import Favorite from "@material-ui/icons/Favorite";
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
@@ -22,8 +23,8 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
-   
-{/* component dropdown */}   
+
+      {/* component dropdown */}
       {/* <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
@@ -48,7 +49,7 @@ function HeaderLinks({ ...props }) {
         />
       </ListItem> */}
       <ListItem className={classes.listItem}>
-{/* download icon */}
+        {/* download icon */}
         {/* <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
@@ -109,6 +110,20 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Link to={"/login-page"} className={classes.link}>
+          <Button
+            className={classes.registerNavLink}
+            onClick={e => e.preventDefault()}
+            color="danger"
+            round
+            size="sm"
+            ><Favorite className={classes.icons} />Register
+            </Button>
+          </Link>
+      </ListItem>
+
     </List>
   );
 }
