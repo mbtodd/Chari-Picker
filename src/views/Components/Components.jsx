@@ -29,14 +29,14 @@ import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
+import Small from "components/Typography/Small.jsx";
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
         {/* <img src="../src/assets/img/images/charityLogo.png" alt="..."/>; */}
-        
+
         <Header
           // img="assets/img/images/charityLogo.png"
           brand="Chari-Picker"
@@ -57,9 +57,9 @@ class Components extends React.Component {
                   <h1 id="redTitle" className={classes.title}>Chari</h1>
                   <h1 className={classes.title}>-Picker</h1>
                   <h3 className={classes.subtitle}>
-                    We are dedicated to make giving to charities as easy as possible. With 
+                    We are dedicated to make giving to charities as easy as possible. With
                     <span id="redTitle_bold"> Chari</span><span id="whiteTitle_bold">-Picker</span>
-                    , you will have a convient way to find a charitable cause and be able to donate to it directly from your phone. 
+                    , you will have a convient way to find a charitable cause and be able to donate to it directly from your phone.
                   </h3>
                 </div>
               </GridItem>
@@ -80,8 +80,16 @@ class Components extends React.Component {
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
             <Link to={"/login-page"} className={classes.link}>
-              <Button color="danger" size="lg" simple>
-                PLEASE REGISTER HERE
+              <Button color="default" size="lg" simple>
+                {/* <h3>
+                  <small> PLEASE REGISTER HERE</small>
+                </h3> */}
+                <div className={classes.typo}>
+                  <h2>
+                    <Small>PLEASE REGISTER HERE</Small>
+                  </h2>
+                </div>
+                
               </Button>
             </Link>
           </GridItem>

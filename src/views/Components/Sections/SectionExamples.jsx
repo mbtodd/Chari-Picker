@@ -35,7 +35,9 @@ class SectionExamples extends React.Component {
                   }
                 />
                 <Button color="danger" size="lg" simple>
-                  FIND YOUR CHARITY 
+                  <h3>
+                    <small>FIND YOUR CHARITY</small>
+                  </h3>
                 </Button>
               </Link>
             </GridItem>
