@@ -10,9 +10,10 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "assets/img/images/Quotes-021.jpg";
+import image2 from "assets/img/images/charity07.jpg";
+import image3 from "assets/img/images/handheart02.jpg";
+import image4 from "assets/img/images/handsup.jpg";
 
 class SectionCarousel extends React.Component {
   render() {
@@ -61,6 +62,19 @@ class SectionCarousel extends React.Component {
                   <div>
                     <img
                       src={image3}
+                      alt="Third slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4>
+                        <LocationOn className="slick-icons" />Yellowstone
+                        National Park, United States
+                      </h4>
+                    </div>
+                  </div>
+                  <div>
+                    <img
+                      src={image4}
                       alt="Third slide"
                       className="slick-image"
                     />
