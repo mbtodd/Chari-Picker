@@ -46,7 +46,6 @@ class WorkSection extends React.Component {
                     }}
                     />
                   </GridItem> */}
-                  <Button color="primary">SUBMIT</Button>
                 <CustomInput
                   labelText="CHARITY SEARCH"
                   id="message"
@@ -59,6 +58,7 @@ class WorkSection extends React.Component {
                     rows: 5
                   }}
                 />
+                  <Button color="danger">SUBMIT</Button>
                 <CustomInput
                   labelText="RESULTS"
                   id="message"

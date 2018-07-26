@@ -52,6 +52,7 @@ RegularButton.propTypes = {
   classes: PropTypes.object.isRequired,
   color: PropTypes.oneOf([
     "primary",
+    "default",
     "info",
     "success",
     "warning",

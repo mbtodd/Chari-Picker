@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -19,6 +20,19 @@ import CustomInput from "components/CustomInput/CustomInput.jsx";
 import loginStyle from "assets/jss/material-kit-react/views/componentsSections/loginStyle.jsx";
 
 class SectionLogin extends React.Component {
+ 
+  //login_db hook
+  constructor(){
+    super();
+    this.state = {
+      login_dbs: []
+    }
+  }
+
+  getLoginDB(){
+    axios.get('http://localhost:3000/api/login_dbs')
+  }
+
   render() {
     const { classes } = this.props;
     return (
